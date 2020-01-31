@@ -1,0 +1,167 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	width: 100%;
+	margin: auto;
+	font-family: Manjari Bold;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backgroundimg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+	
+}
+.menu a{
+    margin: 0px 12px;
+    text-decoration: none;
+	color: cornsilk;
+	text-transform: uppercase;
+	transition: 1s ease;
+}
+.menu a:hover{
+	background-color: #ffff;
+	color:#000;
+	padding: 4px 10px;
+}
+.vertical{
+	text-align: center;
+	padding: 30px 0px;
+}
+.title{
+	text-align: center;
+	padding-top: 180px;
+	
+	
+}
+
+.title h1{
+	color: cornsilk;
+	font-size: 40px;
+}
+.main-body{
+	padding: 30px 80px;
+}
+.grid-about{
+	display: grid;
+    grid-template-columns: 1;
+    grid-template-rows:2;
+
+}
+.about-item1{
+	grid-column: 1;
+    grid-row: 1/2;
+}
+.about-item2{
+	grid-column: 1;
+    grid-row: 2/3;
+}
+.grid-skills{
+	display: grid;
+    grid-template-columns: 1;
+    grid-template-rows:2;
+	margin-top: 50px;
+	border-bottom: 2px solid crimson;
+}
+.about-skills{
+	grid-column: 1;
+    grid-row: 1/2;
+}
+.about-skills{
+	grid-column: 1;
+    grid-row: 2/3;
+}
+.skills-item1 h1{
+	border-bottom: 2px solid crimson;
+	
+}
+.about-skills{
+	grid-column: 1;
+    grid-row: 2/3;
+}
+.skills-item1 h1{
+	border-bottom: 2px solid crimson;
+	
+}
+.grid-contact{
+	display: grid;
+    grid-template-columns: 1;
+    grid-template-rows:3;
+	margin-top: 50px;
+}
+.contact-item1{
+	grid-column: 1;
+    grid-row: 1/2;
+}
+.contact-item2{
+	grid-column: 1;
+	grid-row: 2/3;
+	
+}
+.contact-item2 ul li {
+	list-style-type: none;
+	
+}
+.contact-item2 ul li p a i{
+	color: crimson;
+	
+}
+.contact-item2 ul{
+	padding: 0px;
+}
+.social{
+	background-color: rgb(74, 202, 202);
+	padding: 8px 0px;
+	text-align: center;
+	letter-spacing: 10px;	
+	font-size: 20px;
+
+}
+.social a i{
+	color: crimson;
+}
+.copyright{
+	background-color: rgb(23, 24, 24);
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 0px;
+	color: cornsilk;
+}
+.contact-item3 a i{
+	background-color: crimson;
+	height: 50px;
+	width: 30px;
+	line-height: 50px;
+	text-align: center;
+	padding-left: 10px;
+	border-radius: 100%;
+	letter-spacing: 10px;
+}
+
+
+@media (max-width: 576px) { 
+	.title{
+		padding-top: 100px;
+	}
+	.main-body{
+		padding: 30px 10px;
+	}
+	.grid-about{
+		text-align: center;
+	}
+	.grid-skills h1{
+		text-align: center;
+	}
+	.grid-contact{
+		text-align: center;
+	}
+	.menu a{
+		display: block;
+		padding-top: 4px;
+	}
+	
+	
+	
+ }
